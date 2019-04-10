@@ -264,13 +264,16 @@ body {
   text-align: center;
 }
 .container .mid-container .contact .btn-lg-white {
-  color: midgrey;
+  color: #262525;
   background: white;
   border: none;
   padding: 5px 20px;
 }
 .container .mid-container .work-history {
   margin-top: 50px;
+}
+.container .mid-container .work-history h2 {
+  font-family: 'Anton', sans-serif;
 }
 .container .mid-container .work-history ul {
   margin-top: 50px;
