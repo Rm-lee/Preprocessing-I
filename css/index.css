@@ -228,6 +228,7 @@ body {
   padding-bottom: 50px;
 }
 .container .mid-container .left-content .skills {
+  text-align: center;
   width: 80%;
 }
 .container .mid-container .left-content .skills h2 {
@@ -255,6 +256,18 @@ body {
 }
 .container .mid-container .main-content p {
   margin-top: 50px;
+}
+.container .mid-container .contact {
+  margin-top: 50px;
+}
+.container .mid-container .contact h2 {
+  text-align: center;
+}
+.container .mid-container .contact .btn-lg-white {
+  color: midgrey;
+  background: white;
+  border: none;
+  padding: 5px 20px;
 }
 .container .mid-container .work-history {
   margin-top: 50px;
