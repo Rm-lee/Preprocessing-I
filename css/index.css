@@ -180,15 +180,25 @@ body {
   justify-content: space-between;
 }
 .container .mid-container .left-content {
+  justify-content: center;
+  align-items: center;
+  padding-top: 10%;
   display: flex;
   flex-direction: column;
   background: #262525;
   justify-content: space-between;
   width: 30%;
 }
+.container .mid-container .left-content .skills {
+  width: 80%;
+}
+.container .mid-container .left-content .skills h2 {
+  padding: 5% 1%;
+}
 .container .mid-container .main-content {
   justify-content: center;
   align-items: center;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -197,5 +207,16 @@ body {
   width: 70%;
 }
 .container .mid-container .main-content img {
+  margin-top: 10%;
   width: 25%;
+}
+.container .mid-container .work-history {
+  margin-top: 10%;
+}
+.container .mid-container .work-history ul {
+  margin-top: 10%;
+}
+.container .mid-container .work-history ul li {
+  list-style-type: circle;
+  padding-top: 10%;
 }
