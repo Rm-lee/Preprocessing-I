@@ -174,6 +174,8 @@ body {
 @font:'Montserrat', sans-serif;
 @midgrey: #262525;
 @midcolor:white;
+@mobile:800px;
+
 //variables-end
 
 
@@ -199,7 +201,13 @@ font-size: @fsize;
 
 	header {
 
+		@media (max-width: @mobile) {
+			.center;
+				
+		}
+		
 		nav{
+		
 			margin-top:10px;
 			width:75%;
 			display:flex;
@@ -227,6 +235,13 @@ font-size: @fsize;
 
 
 		.logo-div {
+			@media (max-width: @mobile) {
+			
+				display:none;
+			}
+
+
+			
 			.column;
 			width     : 30%;
 			background: @midgrey;
@@ -246,17 +261,26 @@ font-size: @fsize;
 
 	.mid-container {
 		
-		@media (max-size:500px){
+		@media (max-width: @mobile) {
+			.center;
 			display:flex;
+		
 			flex-direction:column;
+			
+			
 		}
+
   color:white;
 		display : flex;
 		justify-content: space-between;
+
   
 		.left-content {
-
-
+			@media (max-width: @mobile) {
+				width:80%;
+			}
+			
+			line-height: 1.3;
 			.center;
 			padding-top:50px;
 			.column;
@@ -264,7 +288,12 @@ font-size: @fsize;
 
 			justify-content: space-around;
 			width: 30%;
-   
+
+
+   .contact-form{
+				width:70%;
+				padding-bottom:50px;
+			}
    .skills{
 				
 				width:80%;
@@ -274,6 +303,7 @@ font-size: @fsize;
 			}
   
 		
+
 		}//left-content end
 
 
@@ -282,15 +312,24 @@ font-size: @fsize;
 		.center;
 		margin-top:50px;
 
-		img{
-			margin-top:50px;
-			width:25%;
-		}
+		
 		.column;
 		text-align: center;
 		justify-content: space-evenly;		
 		color:black;
 		width:70%;
+
+
+.intro{
+	font-family: 'Anton', sans-serif;
+	line-height: 2;
+	width:75%;
+}
+		img{
+			margin-top:50px;
+			width:25%;
+		}
+
 		p{
 			margin-top:50px;
 		}
