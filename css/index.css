@@ -157,7 +157,7 @@ body {
   background: lightgrey;
   justify-content: space-between;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container header {
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container header .logo-div {
     display: none;
   }
@@ -199,7 +199,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container .mid-container {
     justify-content: center;
     align-items: center;
@@ -218,7 +218,7 @@ body {
   justify-content: space-around;
   width: 30%;
 }
-@media (max-width: 800px) {
+@media (max-width: 500px) {
   .container .mid-container .left-content {
     width: 80%;
   }
