@@ -157,7 +157,7 @@ body {
   background: lightgrey;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 504px) {
   .container header {
     justify-content: center;
     align-items: center;
@@ -186,7 +186,7 @@ body {
   justify-content: flex-end;
   align-items: center;
 }
-@media (max-width: 500px) {
+@media (max-width: 504px) {
   .container header .logo-div {
     display: none;
   }
@@ -199,7 +199,7 @@ body {
   display: flex;
   justify-content: space-between;
 }
-@media (max-width: 500px) {
+@media (max-width: 504px) {
   .container .mid-container {
     justify-content: center;
     align-items: center;
@@ -218,7 +218,7 @@ body {
   justify-content: space-around;
   width: 30%;
 }
-@media (max-width: 500px) {
+@media (max-width: 504px) {
   .container .mid-container .left-content {
     width: 80%;
   }
@@ -252,7 +252,7 @@ body {
 }
 .container .mid-container .main-content img {
   margin-top: 50px;
-  width: 25%;
+  width: 20%;
 }
 .container .mid-container .main-content p {
   margin-top: 50px;
@@ -270,15 +270,30 @@ body {
   padding: 5px 20px;
 }
 .container .mid-container .work-history {
+  width: 90%;
   margin-top: 50px;
+}
+.container .mid-container .work-history table {
+  border: 1px solid #262525;
+}
+.container .mid-container .work-history td,
+.container .mid-container .work-history th {
+  padding: 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+.container .mid-container .work-history tr:nth-child(even) {
+  background-color: #dddddd;
 }
 .container .mid-container .work-history h2 {
   font-family: 'Anton', sans-serif;
+  padding: 20px 0;
 }
 .container .mid-container .work-history ul {
+  width: 100%;
   margin-top: 50px;
 }
 .container .mid-container .work-history ul li {
+  width: 100%;
   list-style-type: circle;
   padding-top: 50px;
 }
