@@ -170,8 +170,8 @@ body {
 
 //mixins-end
 
-
-
+@fsize:2rem;
+@font:'Montserrat', sans-serif;
 @midgrey: #262525;
 @midcolor:white;
 //variables-end
@@ -181,22 +181,33 @@ body {
 
 .container {
 	
-	nav{
-		display:flex;
-		flex-direction:wrap;
 
-	}
 	a{
 		text-decoration-line: none;
+		color:@midgrey;
+		font-size: 1rem;
+		font-weight: 900;
 	}
 	max-width: 800px;
 	margin   : 0 auto;
-
+ h1{
+font-size: @fsize;
+	}
 	h2 {
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	header {
+
+		nav{
+			margin-top:10px;
+			width:75%;
+			display:flex;
+			flex-direction:wrap;
+			justify-content: space-between;
+	
+		}
+
 		.row;
 		height    : 100px;
 		background: lightgrey;
@@ -208,7 +219,7 @@ body {
 			.column;
 			width:70%;
 			.center;
-			font-family: 'Montserrat', sans-serif;
+			font-family: @font;
 			
 			
 		}
@@ -235,7 +246,10 @@ body {
 
 	.mid-container {
 		
-		
+		@media (max-size:500px){
+			display:flex;
+			flex-direction:column;
+		}
   color:white;
 		display : flex;
 		justify-content: space-between;
@@ -244,11 +258,11 @@ body {
 
 
 			.center;
-			padding-top:10%;
+			padding-top:50px;
 			.column;
 			background: @midgrey;
 
-			justify-content: space-between;
+			justify-content: space-around;
 			width: 30%;
    
    .skills{
@@ -266,10 +280,10 @@ body {
  .main-content{
 		
 		.center;
-		margin-top:10%;
+		margin-top:50px;
 
 		img{
-			margin-top:10%;
+			margin-top:50px;
 			width:25%;
 		}
 		.column;
@@ -277,20 +291,23 @@ body {
 		justify-content: space-evenly;		
 		color:black;
 		width:70%;
-	}
+		p{
+			margin-top:50px;
+		}
+	}//main-content end
 
 	.work-history{
-		margin-top:10%;
+		margin-top:50px;
 
 		ul{
-			margin-top:10%;
+			margin-top:50px;
 		 li{
 				list-style-type: circle;
-				padding-top:10%;
+				padding-top:50px;
 			}	
 		}
 		
-	}
+	}//work-historyend
 	}//mid-container end
 
 	
